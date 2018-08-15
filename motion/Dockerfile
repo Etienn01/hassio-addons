@@ -1,5 +1,5 @@
 
-FROM homeassistant/armhf-homeassistant-base
+FROM hassioaddons/base
 
 RUN apk add --update \
     motion \
