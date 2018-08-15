@@ -1,9 +1,7 @@
 
 FROM hassioaddons/base
 
-RUN apk add --update \
-    motion \
-    jq
+RUN apk add --no-cache motion jq
 
 # Copy data
 COPY run.sh /
