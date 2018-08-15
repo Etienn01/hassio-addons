@@ -1,7 +1,7 @@
 
 FROM homeassistant/armhf-homeassistant-base
 
-RUN apt-get update && apt-get install -q -y --no-install-recommends \
+RUN apk add --update \
     motion \
     jq
 
