@@ -1,5 +1,5 @@
 
-FROM homeassistant/armhf-base
+FROM homeassistant/armhf-homeassistant-base
 
 RUN apt-get update && apt-get install -q -y --no-install-recommends \
     motion \
